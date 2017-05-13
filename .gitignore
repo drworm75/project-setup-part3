@@ -1,4 +1,4 @@
 lib/bower_components
-lib/bower_modules
-.DS_Store		
+lib/node_modules
+.DS_Store
 apiKeys.json

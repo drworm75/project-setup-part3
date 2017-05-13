@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Lauren</title>
 	<!-- Third Party Style Tags -->
 	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,7 +11,12 @@
 		
 
 </head>
-<body>
+<body ng-app="Lauren">
+
+	<h2>Lauren's Favorite Animals</h2>
+	<div ng-controller="AnimalArray">
+		<h3>{{animals}}</h3>
+	</div>
 	
 	<!-- Third Party Script Tags -->
 	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
